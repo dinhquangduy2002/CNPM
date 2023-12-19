@@ -54,7 +54,7 @@ header{
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    width: 200px;
+    width: 400px;
 }
 
 .search-btn {
@@ -86,7 +86,6 @@ header{
     font-size: large;
 }
 .listProduct .item .price{
-    letter-spacing: 7px;
     font-size: small;
 }
 .listProduct .item button{
@@ -203,7 +202,18 @@ body.showCart .container{
 .order-success-message.fadeOut {
     animation: fadeOut 0.5s ease-in-out;
 }
-
+.view-details {
+    background-color: #E8BC0E;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.support-icon a {
+    font-size: 30px; 
+    text-decoration: none; 
+}
 @keyframes fadeOut {
     from {
         opacity: 1;
@@ -212,6 +222,7 @@ body.showCart .container{
         opacity: 0;
     }
 }
+
 @media only screen and (max-width: 992px) {
     .listProduct{
         grid-template-columns: repeat(3, 1fr);
